@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(255, 231, 179);
+  background-image: url('assets/images/background.jpg');
+}
+
+/* -------------------------------------------------------- */
+/* NAVBAR */
+/* -------------------------------------------------------- */
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+/* -------------------------------------------------------- */
+/* CONTAINER div and Associates */
+/* -------------------------------------------------------- */
+
+.container {
+  margin-top: 60px;
+  padding: 30px;
+  border: 1px solid rgb(94, 94, 94);
+  background-color: rgba(241, 241, 241, 0.77);
+  color: rgb(56, 56, 56);
+}
+
+.bottom-border {
+  border-bottom: 1px solid rgb(199, 199, 199);
+  margin-bottom: 10px;
+}
