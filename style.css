@@ -9,10 +9,7 @@ body {
 
 p {
   font-family: 'Merriweather', serif;
-  font-size: 1.3em;
   font-weight: 300;
-  letter-spacing: 0.03em;
-  line-height: 2em;
 }
 
 /* -------------------------------------------------------- */
@@ -71,10 +68,89 @@ a.nav-link:hover {
 /* ABOUT ME section */
 /* -------------------------------------------------------- */
 
+p.about {
+  font-size: 1.3em;
+  letter-spacing: 0.03em;
+  line-height: 2em;
+}
+
 img.headshot {
   width: 100%;
   border-radius: 12px;
   margin-bottom: 30px;
+}
+
+/* -------------------------------------------------------- */
+/* PORTFOLIO section */
+/* -------------------------------------------------------- */
+
+.portfolio {
+  margin-bottom: 50px;
+}
+
+div.image {
+  padding-bottom: 30px;
+}
+
+img.placeholder {
+  width: 100%;
+}
+
+.roll-up {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.48);
+  margin-bottom: 0;
+  padding: 5% 0;
+  /* transition:  0.3s ease-in; */
+}
+
+div.hover-text:hover > a > .roll-up {
+  display: block;
+}
+
+/* */
+/* Correct centering for Project Title text */
+/* */
+
+@media screen and (min-width: 1200px) {
+  .roll-up {
+    width: 339.33px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .roll-up {
+    width: 279.33px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .roll-up {
+    width: 199.33px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .roll-up {
+    width: 478px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .roll-up {
+    display: block;
+    width: 100%;
+  }
+
+  div.hover-text {
+    padding: 0;
+    margin: 0 15px;
+  }
 }
 
 /* -------------------------------------------------------- */
