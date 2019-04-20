@@ -75,3 +75,17 @@ img.headshot {
   width: 100%;
   border-radius: 12px;
 }
+
+/* -------------------------------------------------------- */
+/* FOOTER section */
+/* -------------------------------------------------------- */
+
+.footer {
+  padding: 5px 30px;
+  background-color: rgba(0, 0, 0, 0.48);
+  font-weight: bold;
+  font-size: 0.8em;
+  color: rgb(204, 204, 204);
+  text-align: center;
+  margin-top: 40px;
+}
