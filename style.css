@@ -23,8 +23,29 @@ p {
   background-color: rgba(0, 0, 0, 0.48) !important;
 }
 
+h1.navbar-brand {
+  font-size: 2em;
+}
+
+ul.navbar-nav {
+  margin-left: 30px;
+}
+
 li.nav-item {
-  text-align: right;
+  text-align: right; /* Only visible when menu is collapsed */
+}
+
+a.nav-link {
+  color: rgb(204, 204, 204) !important;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+  border-top: 1px solid rgba(0, 0, 0, 0);
+  padding: 0.5rem 0 !important;
+  margin: 0 0.5rem;
+}
+
+a.nav-link:hover {
+  border-top: 1px solid rgb(204, 204, 204);
 }
 
 /* -------------------------------------------------------- */
