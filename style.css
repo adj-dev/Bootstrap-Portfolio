@@ -39,4 +39,5 @@ li.nav-item {
 
 img.headshot {
   width: 100%;
+  border-radius: 12px;
 }
