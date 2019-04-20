@@ -11,6 +11,10 @@ body {
   background-color: rgba(0, 0, 0, 0.48) !important;
 }
 
+li.nav-item {
+  text-align: right;
+}
+
 /* -------------------------------------------------------- */
 /* CONTAINER div and Associates */
 /* -------------------------------------------------------- */
