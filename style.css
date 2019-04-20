@@ -64,7 +64,7 @@ a.nav-link:hover {
 
 .bottom-border {
   border-bottom: 1px solid rgb(171, 171, 171);
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 /* -------------------------------------------------------- */
@@ -74,6 +74,7 @@ a.nav-link:hover {
 img.headshot {
   width: 100%;
   border-radius: 12px;
+  margin-bottom: 30px;
 }
 
 /* -------------------------------------------------------- */
