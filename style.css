@@ -90,3 +90,19 @@ img.headshot {
   text-align: center;
   margin-top: 60px;
 }
+
+/* Correct footer behavior */
+
+@media screen and (min-width: 992px) and (min-height: 771px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) and (min-height: 935px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+  }
+}
