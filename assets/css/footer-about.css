@@ -5,10 +5,8 @@
 
 */
 
-@media screen and (min-width: 768px) and (max-width: 991px) /*and (min-height: 935px) */ {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   .footer {
-    /* position: fixed;
-    bottom: 0; */
     margin-top: 96px;
   }
 }
