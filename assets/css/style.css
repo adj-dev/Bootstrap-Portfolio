@@ -96,7 +96,7 @@ img.placeholder {
   width: 100%;
 }
 
-.roll-up {
+.overlay {
   display: none;
   position: absolute;
   z-index: 1;
@@ -106,10 +106,9 @@ img.placeholder {
   background-color: rgba(0, 0, 0, 0.48);
   margin-bottom: 0;
   padding: 5% 0;
-  /* transition:  0.3s ease-in; */
 }
 
-div.hover-text:hover > a > .roll-up {
+div.hover-text:hover > a > .overlay {
   display: block;
 }
 
@@ -118,31 +117,25 @@ div.hover-text:hover > a > .roll-up {
 /* */
 
 @media screen and (min-width: 1200px) {
-  .roll-up {
+  .overlay {
     width: 339.33px;
   }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  .roll-up {
+  .overlay {
     width: 279.33px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .roll-up {
+  .overlay {
     width: 199.33px;
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 767px) {
-  .roll-up {
-    width: 478px;
-  }
-}
-
 @media screen and (max-width: 767px) {
-  .roll-up {
+  .overlay {
     display: block;
     width: 100%;
   }
