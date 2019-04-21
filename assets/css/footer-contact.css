@@ -4,3 +4,16 @@
         to each .html file
 
 */
+
+@media screen and (max-height: 768px) {
+  .footer {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (min-height: 769px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+  }
+}
