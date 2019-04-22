@@ -128,7 +128,7 @@ For the *Portfolio* page I wanted a sleek and intuitive way to present project t
   }
 }
 ```
-There was a caveat: once the screen width got below 768px the images resized automatically with a *relative* width, this made it impossible to center the text using a *static* width such as pixels. My solution to this was to remove the original cause of the issue: the `padding` on the parent `<div>`. This allowed me to use `width: 100%` on the `<h3>`.
+There was a caveat: once the screen width got below `576px` the images resized automatically with a *relative* width, this made it impossible to center the text using a *static* width such as pixels. My solution to this was to remove the original cause of the issue: the `padding` on the parent `<div>`. This allowed me to use `width: 100%` on the `<h3>`.
 ```css
 @media screen and (max-width: 767px) {
   .overlay {
@@ -141,7 +141,7 @@ There was a caveat: once the screen width got below 768px the images resized aut
   }
 }
 ```
-This didn't perform well when images were placed adjacent horizontally, thus I was only able to apply it to mobile layouts (thus `max-width: 767px`).
+At first I thought this might be a fix-all, but it wasn't. It didn't perform well when images were placed adjacent horizontally, thus I was only able to apply it to mobile layouts (thus `max-width: 767px`).
 
 3. I had to account for mobile layouts not allowing users the ability to hover with a cursor over the links.
 
