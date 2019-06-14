@@ -80,6 +80,23 @@ img.headshot {
   margin-bottom: 30px;
 }
 
+#aboutme-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ext-links {
+  text-decoration: none;
+  color: rgb(56, 56, 56);
+  font-size: 2em;
+  padding: 0 5px;
+
+}
+
+.ext-links:hover {
+  color: rgb(94, 94, 94);
+}
+
 /* -------------------------------------------------------- */
 /* PORTFOLIO section */
 /* -------------------------------------------------------- */
@@ -111,6 +128,29 @@ img.placeholder {
 div.hover-text:hover > a > .overlay {
   display: block;
 }
+
+.deployment-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.deployment-link:hover {
+  text-decoration: none;
+}
+
+.deployment-btn {
+  border: none;
+  background-color: dodgerblue;
+  color: white;
+}
+
+.unavailable-btn {
+  border: none;
+  background-color: coral;
+  color: white;
+}
+
 
 /* */
 /* Correct centering for Project Title text */
@@ -150,9 +190,12 @@ div.hover-text:hover > a > .overlay {
 /* CONTACT section */
 /* -------------------------------------------------------- */
 
-.btn-submit {
-  background-color: rgb(56, 56, 56);
-  color: rgb(255, 255, 255);
+#contact {
+  padding: 60px;
+}
+
+#contact > p {
+  text-align: center;
 }
 
 /* -------------------------------------------------------- */
